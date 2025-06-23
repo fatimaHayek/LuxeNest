@@ -1,0 +1,375 @@
+/* style.css for LuxeNest */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #2F4156;
+}
+
+h1, h2, h3 {
+    color: #2F4156;
+}
+
+header h1 {
+  color: #FFFFFF;
+}
+
+
+/* line height ..space between lines */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    color: #567C8D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2F4156;
+    text-decoration: underline;
+}
+
+/* Header and Footer */
+
+header {
+    background-color: #2F4156;
+    color: #FFFFFF;
+    padding: 10px 20px 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 12px 12px;
+}
+
+
+
+footer {
+  background-color: #2F4156;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 12px 12px;
+}
+
+header h1 footer p {
+    margin-bottom: 10px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+header{
+    padding-top: 7px;
+}
+
+.site-title{
+    float: left;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 5px;
+    color: #FFFFFF;
+}
+
+nav {
+    float: right;
+    padding-top: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #C8D9E6
+}
+
+.welcome {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.welcome h2 {
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.welcome p {
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+footer a{
+    color: #C8D9E6;
+}
+
+footer a:hover{
+    color: #FFFFFF;
+}
+
+
+/*Main Sections*/
+main {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #567C8D;
+    border-radius: 10px;
+
+}
+
+.info-section{
+    background-color: #F5EFEB;
+    padding: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.info-text, .info-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+}
+
+.info-text {
+    padding-right: 2%;
+}
+
+.info-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2F4156;
+}
+
+.info-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2F4156;
+    margin-bottom: 20px;
+}
+
+.info-image {
+    text-align: right;
+}
+
+.info-image img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.why-choose-us {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  color: #2F4156;
+}
+
+.why-choose-us h3 {
+  text-align: left;
+  color: #2F4156;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.why-choose-us ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.why-choose-us ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.vid {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/*Sign Up */
+.signup-section {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    font-family: 'Segoe UI';
+    color: #264653;
+}
+
+.signup-section h2 {
+    font-size: 30px;
+    color: #2F4156;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.signup-section p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.signup-section label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.signup-section input[type="text"],
+.signup-section input[type="email"],
+.signup-section input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+
+.gender-options label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+
+
+.signup-section button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2F4156;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.signup-section button:hover {
+    background-color:#2F4156;
+}
+
+/*Contact */
+.contact {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    font-family: 'Segoe UI';
+    color: #264653;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: #2F4156;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.contact-group {
+    margin-bottom: 20px;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.contact button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2F4156;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color:#2F4156;
+}
+
+
+.map {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+.map h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2F4156;
+}
+
+
+
+
+
+
